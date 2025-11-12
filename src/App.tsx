@@ -1,11 +1,13 @@
 import './App.css'
+import Counter from './components/Counter'
 
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='min-h-screen flex flex-col items-center justify-center bg-gray-100'>
+      <h1 className='text-3xl font-bold mb-6 text-gray-800'>Gerer les etats avec React</h1>
+      <Counter />
+    </div>
   )
 }
 
